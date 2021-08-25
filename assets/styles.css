@@ -1,0 +1,825 @@
+
+#nav-section{
+    margin:0;
+}
+#first-butt{
+    background-color: #e95c1bec;
+    padding:5px 30px;
+    width:100px;
+    color:white;
+    border:none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+#nav-section nav{
+    display: flex;
+    justify-content: space-between;
+    max-height:50px ;
+}
+nav div{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    position: relative;
+}
+
+#nav-list{
+    display: flex;
+    padding-left: 20px;
+}
+
+#nav-list li{
+    font-size: 13px;
+    display: flex;
+    padding-top: 2px;
+    
+}
+#logo{
+    padding: 9px 0 0 10px;
+}
+
+#nav-list a{
+    text-decoration:none;
+    color:rgb(184, 179, 179);
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+/**
+Homepage
+*/
+
+.homepage{
+    background-image:
+        url('https://i.imgur.com/ksqOx5F.jpg');
+       position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.overlay{
+    position:absolute;
+    background-color: #000000b3;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.full-homepage{
+    position: relative;
+}
+.main-heading{
+    font-size: 90px;
+    color:whitesmoke;
+    margin-left: 8%;
+    margin-right: 20%;
+    margin-bottom: 0%;
+    padding-top: 80px;
+
+}
+.sub-heading{
+    font-size: 33px;
+    color:whitesmoke;
+    margin-left: 8%;
+    margin-right: 20%;
+}
+.par-butte-1{
+margin-bottom: 0%;
+
+padding-bottom:80px;
+
+}
+.button-1{
+ background-Color:#4992ca;
+ color:white;
+ margin-left: 8%;
+ width: 200px;
+ height: 40px;
+ border:none;
+}
+.button-2{
+    border: 2px solid #fff;
+    background-color:#0000;
+    color:whitesmoke;
+    margin-left: 8%;
+    width: 200px;
+ height: 50px;
+
+}
+.button-3{
+    border: 1px solid black;
+    border-radius:15px;
+    margin-left: 8%;
+    width: 400px;
+ height: 45px;
+} 
+body{
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+
+/**
+Pocket Monsters
+*/
+
+.pocket-monsters{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    background-color: #4992ca;
+    color:white;
+}
+.pokemon-series{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    margin-top:0%;
+    font-size:13px;
+    text-align:center;
+
+}
+.pokemon-types{
+    text-align:center;
+    font-size:13px;
+    margin-bottom: 40px;
+    
+   
+}
+
+.container{
+    display:flex;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.para-1{
+    font-size:13px;
+    margin-bottom: 60px;
+    text-align:center;
+}
+.fas{
+    margin-left:45%;
+    margin-right:45%;
+    font-size:38px;
+}
+.water,.fire,.leaf{
+    margin-left:20px;
+    margin-right:20px;
+}
+.pocket-h2{
+    margin-top: 0px;
+    font-size:45px;
+    text-align: center;
+    padding-top: 16px;
+}
+.pocket-h4{
+    text-align:center;
+    font-size:30px;
+}
+
+
+/**
+Statistics
+*/
+
+.stats-section{
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+.head1{
+    text-align:center;
+    font-size:45px;
+    margin-bottom:0%;
+}
+.head2{
+    font-size:30px;
+    text-align:center;
+    margin-top:0%;
+}
+.container-stat{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom:4%;
+    
+    
+}
+
+.para-stat{
+    text-align:center;
+}
+
+/**
+Pokemon of the Year Section
+*/
+
+.pokemon-year-section{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    margin-top:0%;
+    
+}
+
+.head-pokemon{
+    font-size:40px;
+    text-align: center;
+    margin-top:0%;
+    
+}
+.grid-section{
+    display:grid;
+    grid-template-columns: 20% 20% 60%;
+    justify-content: center;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.para-image ,.image-1,.image-2{
+    margin-top:1%;
+    max-width:160px;
+    text-align:center;
+}
+    .para-4{
+        margin-top:5%;
+        color:gray;
+    }
+
+
+
+.head-4{
+font-size:30px;
+margin-bottom:1%;
+color:gray;
+}
+.head-6{
+font-size:18px;
+margin-bottom:1%;
+margin-top:1%;
+color:gray;
+}
+
+/**
+Q and A Section
+*/
+
+.q-and-a-section{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    background-color:#4992ca;
+    padding-bottom:3%
+}
+.qa-container{
+    margin-left:12%;
+    margin-right:12%;
+    color:white;
+}
+.q-a-head{
+text-align:center;
+padding-top:30px;
+padding-bottom: 10px;
+margin-bottom:0%;
+font-size: 45px;
+}
+.para-imp{
+    text-align: left;
+}
+.font-1{
+    font-size: 14px;
+}
+
+/**
+Pokemon-battles-Section
+*/
+
+.battles-section{
+    padding: 30px 180px 20px 180px;
+}
+.full-div{
+display: flex;
+
+}
+.head-battle{
+    text-align: center;
+    font-size: 40px;
+}
+.head-battle-1{
+    color:black;
+    text-align: center;
+}
+
+
+.para-div{
+
+flex: 1;
+margin-right: 10px;
+
+}
+.para-head2{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top:0px;
+
+}
+.para-6{
+    line-height: 100%;
+    color:#7f8c8d;
+}
+.table{
+    flex: 2;
+    margin-left: 10px;
+}
+.actual-table,th,td{
+    border: 1px solid #7f8c8d;
+    border-collapse: collapse;
+
+}
+th{
+    color:black;
+    font-weight: 700;
+    padding-left: 7px;
+    text-align: left;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+td{
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #7f8c8d;
+}
+.para-go{
+    color: black;
+    font-weight: 400;
+
+}
+.para-go1{
+color: #4992ca;
+font-weight: 500;
+font-size: 18px;
+text-align: center;
+}
+.button-now{
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+color:#fff;
+background-color: #4992ca;
+max-width: 20%;
+text-decoration: none;
+padding-left: 6%;
+padding-right: 6%;
+padding-top: 7px;
+padding-bottom: 10px;
+border:none;
+}
+
+
+
+
+/**
+Know More section
+*/
+.know-more-section{
+    background-color:  #424242;
+    color:white;
+    text-align:center;
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+.know-div{
+    padding-top:1%;
+padding-bottom:5%;
+}
+
+.know-head{
+font-size:45px;
+padding-top:0%;
+margin-bottom:20px;
+
+}
+.button-5{
+      background:#0000;
+      color:white;
+      width:14%;
+      height:6%;
+      border:2px solid #fff;
+}
+
+/**
+Pokemon Card Section
+*/
+.pokemon-card-section{
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+.h3-head{
+    color:gray;
+    font-size:45px;
+    text-align: center;
+    margin-top:2%;
+    margin-bottom:0%;
+}
+.para-5{
+    color:gray;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 10px;
+    background-color: rgb(246, 245, 246);
+}
+
+.sub-section1{
+margin-left:42%;
+margin-right:42%;
+text-align: center;
+border:1px solid rgb(224, 223, 224);
+border-top:12px solid #4992ca;
+}
+.sub-section2{
+    text-align: center;
+    width:100%;
+    
+    border-top:1px solid rgb(224, 223, 224);
+  
+}
+.img-col{
+    height: 150px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: rgb(246, 245, 246);
+}   
+
+.img-col-1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 10px;
+    background-color: rgb(246, 245, 246);
+}
+
+/**
+Pockemon Trainers Section
+*/
+.pokemon-trainers-section{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    margin-top:2%;
+    background-color:#4992ca;
+   
+}
+.head-pokemon1{
+    font-size:40px;
+    text-align: center;
+    margin-top:0%;
+    color:white;
+}
+.grid-section-1{
+    display:grid;
+    grid-template-columns: 20% 20% 60%;
+    justify-content: center;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.image-3,.image-4{
+    margin-top:1%;
+    max-width:160px;
+    text-align:center;
+}
+.para-9{
+    margin-top:5%;
+        color:white;
+        font-size: 14px;
+}
+
+.head-7{
+    font-size:30px;
+    margin-bottom:1%;
+    color:white;
+}
+.head-8{
+    font-size:16px;
+    margin-bottom:1%;
+    margin-top:1%;
+    color:white;
+}
+
+/**
+4-Pokemon-Cards-Section
+*/
+
+.head-cards{
+    color: gray;
+    font-size: 35px;
+    text-align: center;
+}
+.sub-big-card{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.div-a{
+    max-width: 43%;
+    border: 1px solid rgb(224, 223, 224);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-top: 12px solid #4992ca;
+
+}
+.div-b{
+    max-width: 43%;
+    border: 1px solid rgb(224, 223, 224);
+    border-top: #4992ca;
+    margin-bottom: 10px;
+    border-top: 12px solid #4992ca;
+}
+.head-cards-1{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    background-color: rgb(246, 245, 246);
+
+}
+.dates{
+    padding-left: 10px;
+    padding-bottom: 25px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    background-color: rgb(246, 245, 246);
+}
+.paraaa{
+    margin-left: 6px;
+    font-size: 16px;
+    padding-top: 16px;
+    border-top: 1px solid rgb(224, 223, 224);
+    margin-top: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+/**
+Pokemon-games section
+*/
+
+.head-games{
+    font-size: 45px;
+    text-align: center;
+    color:gray;
+}
+.section-game{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.div-x{
+    text-align: center;
+}
+.para-game{
+    font-size:20px;
+}
+.img-game{
+    width: 300px;
+    height: 200px;;
+}
+
+.img-game-1{
+    width: 150px;
+    height: 200px;;
+}
+.img-game-2{
+    width: 260px;
+    height: 200px;;
+}
+.gray{
+    color:#424242;
+    font-size:18px;
+}
+.div-x{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.para-btn{
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.see-button{
+    text-align: center;
+    background-color: #4992ca;
+    color:white;
+    border:none;
+    width:270px;
+       height:50px;
+       margin-bottom: 0%;
+}
+
+
+
+
+/**
+Designers Section
+*/
+
+.designer-section{
+    background-color:#4992ca;
+    color:white;
+}
+.total-section{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+    margin-left: 10%;
+    align-items: center;
+    
+}
+.design-head{
+font-size: 45px;
+text-align: center;
+margin-bottom:0%;
+}
+.design-img{
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.design-head-2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.section-a,.section-b,.section-c{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.pcen{
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 16px;
+}
+.pcen-1{
+    font-size: 14px;
+}
+
+
+
+
+
+/**
+Pokemon Logos
+*/
+
+.pokemon-logos{
+font-family: Avenir-Next,Roboto,sans-serif;
+display:flex;
+text-align: center;
+}
+.logos{
+    font-size:45px;
+    color:#7f8c8d;
+    text-align:center;
+    margin-bottom:1% ;
+}
+.created{
+    color:#424242;
+    text-align:center;
+    margin-bottom:0%;
+    
+}
+.image-5{
+    max-width:30%;
+}
+
+
+
+/**
+Know more Section
+*/
+
+
+
+.know-more-section-1{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    background-color: #4992ca;
+    text-align:center;
+    color:white;
+    
+}
+.know-more{
+    font-size:45px;
+    margin-top:0%;
+    padding-top:2%;
+}
+.click-here{
+    width:240px;
+    height:40px;
+    margin-bottom:1%;
+    background-color: #4992ca;
+    color:white;
+    border:2px solid #fff;
+}
+
+
+
+/**
+Footer Section
+*/
+
+
+
+    .footer-1{
+background-color:#424242;
+display:flex;
+flex-direction: row;
+justify-content: space-evenly;
+    }
+    .footer-div{
+        text-align: center;
+    }
+    .div-cen{
+        text-align: center;
+    }
+    .last-list{
+        list-style-type: none;
+    
+    }
+    .foot-list{
+    color:white;
+    text-decoration:none;
+    text-align: center;
+    }
+    .fab{
+        margin-right: 15px;
+        text-align: left;
+        color: white;
+    }
+    .coffee{
+        text-decoration: none;
+        color:white;
+    }
+    .foot-head{
+   color:#7cc6f2;
+   text-align: center;
+    }
+    
+
+    /**
+    Email div
+*/
+
+
+.mail-div{
+    background-color: #424242;
+    height: 250px;
+    text-align: center;
+    color:white;
+    padding-top: 1%;
+}
+.big-head{
+    font-size:40px;
+    margin-bottom: 0%;
+}
+    .mail-div > div{
+        position: relative;
+        top:35px;
+        display: flex;
+        gap:2px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .mail-button{
+        background-color: #0000;
+        text-align: center;
+        border:2px solid #fff;
+        height:53px;
+        width:160px;
+        color:white;
+            }
+    .useremail{
+        width:30%;
+        height:55px;
+        text-align:left;
+
+    }
