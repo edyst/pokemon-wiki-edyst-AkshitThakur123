@@ -2,48 +2,76 @@
 #nav-section{
     margin:0;
 }
-#first-butt{
-    background-color: #e95c1bec;
-    padding:5px 30px;
-    width:100px;
-    color:white;
-    border:none;
-    font-weight: bold;
-    cursor: pointer;
-    margin: 10px;
-    
+nav{
+    background-color: #fff;
+
 }
-#nav-section nav{
-    display: flex;
+.navbar{
+    display:flex;
     justify-content: space-between;
-    max-height:50px ;
 }
-nav div{
+.navbar > ul{
     display: flex;
-    justify-content: center;
-    margin:0;
-    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    align-items: center;
+}
+.navbar > ul > li{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-#nav-list{
-    display: flex;
-    padding-left: 20px;
+.edyst{
+text-align: left;
+height: 30px;
+width: auto;
+display: block;
+margin-top: auto;
+margin-bottom:auto;
 }
+.india{
+    height:24px;
+    width: auto;
+    text-align: right;
+    vertical-align: middle;
+    margin-left: 90%;
+}
+.dropdown{
+    border:none;
+    outline:0px;
 
-#nav-list li{
-    font-size: 13px;
-    display: flex;
+}
+select{
+    border:none;
+    color: #7f8c8d;
+}
+select:hover{
+    cursor: pointer;
+    color: rgb(32, 32, 32);
+}
+.button-nav{
+    height: 24px;
+    border: none;
+    text-decoration: none;
+    color: #7f8c8d;
+}
+.button-nav1{
+    height: 24px;
+    background-color: tomato;
+    min-width: 100px;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
     padding-top: 2px;
-    
-}
-#logo{
-    padding: 9px 0 0 10px;
-}
-
-#nav-list a{
-    text-decoration:none;
-    color:rgb(184, 179, 179);
-    padding-right: 30px;
+    padding-bottom: 2px;
+    border-radius: 2px;
 }
 
 
@@ -81,6 +109,7 @@ Homepage
     margin-right: 20%;
     margin-bottom: 0%;
     padding-top: 80px;
+    margin-top: 2px;
 
 }
 .sub-heading{
